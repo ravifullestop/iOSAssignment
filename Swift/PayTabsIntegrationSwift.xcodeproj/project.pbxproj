@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83B4F8DED5C16C9EACC0D58B /* Pods_PayTabsIntegrationSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C48A7C2A2138803A9BD945 /* Pods_PayTabsIntegrationSwiftTests.framework */; };
+		BD4A7CE42491F8BD00EC7840 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A7CE32491F8BD00EC7840 /* AppDelegate.swift */; };
+		BD4A7CE62491F8BD00EC7840 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A7CE52491F8BD00EC7840 /* SceneDelegate.swift */; };
+		BD4A7CE82491F8BD00EC7840 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A7CE72491F8BD00EC7840 /* ViewController.swift */; };
+		BD4A7CEB2491F8BD00EC7840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4A7CE92491F8BD00EC7840 /* Main.storyboard */; };
+		BD4A7CED2491F8C400EC7840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4A7CEC2491F8C400EC7840 /* Assets.xcassets */; };
+		BD4A7CF02491F8C400EC7840 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4A7CEE2491F8C400EC7840 /* LaunchScreen.storyboard */; };
+		BD4A7CFB2491F8C400EC7840 /* PayTabsIntegrationSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A7CFA2491F8C400EC7840 /* PayTabsIntegrationSwiftTests.swift */; };
+		BD4A7D062491F8C400EC7840 /* PayTabsIntegrationSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A7D052491F8C400EC7840 /* PayTabsIntegrationSwiftUITests.swift */; };
+		BD4A7D1A2491FC0600EC7840 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD4A7D182491FC0600EC7840 /* Resources.bundle */; };
+		BD4A7D1B2491FC0600EC7840 /* paytabs-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4A7D192491FC0600EC7840 /* paytabs-iOS.framework */; };
+		BD4A7D242492032B00EC7840 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A7D212492032B00EC7840 /* Config.swift */; };
+		BD4A7D252492032B00EC7840 /* ValidationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A7D222492032B00EC7840 /* ValidationClass.swift */; };
+		BD4A7D262492032B00EC7840 /* HRToast+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A7D232492032B00EC7840 /* HRToast+UIView.swift */; };
+		BD97679F24921FA800087ECD /* PaymentDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97679E24921FA800087ECD /* PaymentDetailController.swift */; };
+		BD9767A22492208100087ECD /* CommonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9767A12492208100087ECD /* CommonModel.swift */; };
+		BD9767A724923F5100087ECD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9767A624923F5100087ECD /* Utilities.swift */; };
+		DE677EE6889C7A210EB63085 /* Pods_PayTabsIntegrationSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F2D9A75912A36E3D0088CD /* Pods_PayTabsIntegrationSwift.framework */; };
+		FB80A3E90D7F5E001B1B4A46 /* Pods_PayTabsIntegrationSwift_PayTabsIntegrationSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA373751618703AA215B5FA /* Pods_PayTabsIntegrationSwift_PayTabsIntegrationSwiftUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD4A7CF72491F8C400EC7840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD4A7CD82491F8BD00EC7840 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4A7CDF2491F8BD00EC7840;
+			remoteInfo = PayTabsIntegrationSwift;
+		};
+		BD4A7D022491F8C400EC7840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD4A7CD82491F8BD00EC7840 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4A7CDF2491F8BD00EC7840;
+			remoteInfo = PayTabsIntegrationSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		223411CD3C29F79B54B8E083 /* Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests/Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		24803B1F3C527D08EEAD4DBF /* Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests/Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C0590752F6139A400298317 /* Pods-PayTabsIntegrationSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTabsIntegrationSwift.release.xcconfig"; path = "Target Support Files/Pods-PayTabsIntegrationSwift/Pods-PayTabsIntegrationSwift.release.xcconfig"; sourceTree = "<group>"; };
+		3869A9900DB831FD3C4B8C8F /* Pods-PayTabsIntegrationSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTabsIntegrationSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-PayTabsIntegrationSwiftTests/Pods-PayTabsIntegrationSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52BA592379E4BD6573811B3B /* Pods-PayTabsIntegrationSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTabsIntegrationSwift.debug.xcconfig"; path = "Target Support Files/Pods-PayTabsIntegrationSwift/Pods-PayTabsIntegrationSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		7051A4BA3CFF369CAEB07220 /* Pods-PayTabsIntegrationSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTabsIntegrationSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-PayTabsIntegrationSwiftTests/Pods-PayTabsIntegrationSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		70C48A7C2A2138803A9BD945 /* Pods_PayTabsIntegrationSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayTabsIntegrationSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79F2D9A75912A36E3D0088CD /* Pods_PayTabsIntegrationSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayTabsIntegrationSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4A7CE02491F8BD00EC7840 /* PayTabsIntegrationSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayTabsIntegrationSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4A7CE32491F8BD00EC7840 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD4A7CE52491F8BD00EC7840 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD4A7CE72491F8BD00EC7840 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD4A7CEA2491F8BD00EC7840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD4A7CEC2491F8C400EC7840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD4A7CEF2491F8C400EC7840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD4A7CF12491F8C400EC7840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4A7CF62491F8C400EC7840 /* PayTabsIntegrationSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayTabsIntegrationSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4A7CFA2491F8C400EC7840 /* PayTabsIntegrationSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayTabsIntegrationSwiftTests.swift; sourceTree = "<group>"; };
+		BD4A7CFC2491F8C400EC7840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4A7D012491F8C400EC7840 /* PayTabsIntegrationSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayTabsIntegrationSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4A7D052491F8C400EC7840 /* PayTabsIntegrationSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayTabsIntegrationSwiftUITests.swift; sourceTree = "<group>"; };
+		BD4A7D072491F8C400EC7840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4A7D182491FC0600EC7840 /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
+		BD4A7D192491FC0600EC7840 /* paytabs-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "paytabs-iOS.framework"; sourceTree = "<group>"; };
+		BD4A7D1E249201A300EC7840 /* PayTabsIntegrationSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayTabsIntegrationSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		BD4A7D212492032B00EC7840 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		BD4A7D222492032B00EC7840 /* ValidationClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationClass.swift; sourceTree = "<group>"; };
+		BD4A7D232492032B00EC7840 /* HRToast+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HRToast+UIView.swift"; sourceTree = "<group>"; };
+		BD97679E24921FA800087ECD /* PaymentDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailController.swift; sourceTree = "<group>"; };
+		BD9767A12492208100087ECD /* CommonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonModel.swift; sourceTree = "<group>"; };
+		BD9767A624923F5100087ECD /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		BFA373751618703AA215B5FA /* Pods_PayTabsIntegrationSwift_PayTabsIntegrationSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayTabsIntegrationSwift_PayTabsIntegrationSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD4A7CDD2491F8BD00EC7840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE677EE6889C7A210EB63085 /* Pods_PayTabsIntegrationSwift.framework in Frameworks */,
+				BD4A7D1B2491FC0600EC7840 /* paytabs-iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4A7CF32491F8C400EC7840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B4F8DED5C16C9EACC0D58B /* Pods_PayTabsIntegrationSwiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4A7CFE2491F8C400EC7840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB80A3E90D7F5E001B1B4A46 /* Pods_PayTabsIntegrationSwift_PayTabsIntegrationSwiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5131584A2FF0E4EDC6225797 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79F2D9A75912A36E3D0088CD /* Pods_PayTabsIntegrationSwift.framework */,
+				BFA373751618703AA215B5FA /* Pods_PayTabsIntegrationSwift_PayTabsIntegrationSwiftUITests.framework */,
+				70C48A7C2A2138803A9BD945 /* Pods_PayTabsIntegrationSwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD4A7CD72491F8BD00EC7840 = {
+			isa = PBXGroup;
+			children = (
+				BD4A7CE22491F8BD00EC7840 /* PayTabsIntegrationSwift */,
+				BD4A7CF92491F8C400EC7840 /* PayTabsIntegrationSwiftTests */,
+				BD4A7D042491F8C400EC7840 /* PayTabsIntegrationSwiftUITests */,
+				BD4A7CE12491F8BD00EC7840 /* Products */,
+				FA80EC4EEE8D79DCF400C6D1 /* Pods */,
+				5131584A2FF0E4EDC6225797 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD4A7CE12491F8BD00EC7840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD4A7CE02491F8BD00EC7840 /* PayTabsIntegrationSwift.app */,
+				BD4A7CF62491F8C400EC7840 /* PayTabsIntegrationSwiftTests.xctest */,
+				BD4A7D012491F8C400EC7840 /* PayTabsIntegrationSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD4A7CE22491F8BD00EC7840 /* PayTabsIntegrationSwift */ = {
+			isa = PBXGroup;
+			children = (
+				BD4A7CE32491F8BD00EC7840 /* AppDelegate.swift */,
+				BD4A7CE52491F8BD00EC7840 /* SceneDelegate.swift */,
+				BD9767A02492203A00087ECD /* Model */,
+				BD4A7D1F249202EA00EC7840 /* Controllers */,
+				BD4A7D202492032200EC7840 /* Utils */,
+				BD4A7CE92491F8BD00EC7840 /* Main.storyboard */,
+				BD4A7CEC2491F8C400EC7840 /* Assets.xcassets */,
+				BD4A7CEE2491F8C400EC7840 /* LaunchScreen.storyboard */,
+				BD4A7D1E249201A300EC7840 /* PayTabsIntegrationSwift-Bridging-Header.h */,
+				BD4A7CF12491F8C400EC7840 /* Info.plist */,
+				BD4A7D192491FC0600EC7840 /* paytabs-iOS.framework */,
+				BD4A7D182491FC0600EC7840 /* Resources.bundle */,
+			);
+			path = PayTabsIntegrationSwift;
+			sourceTree = "<group>";
+		};
+		BD4A7CF92491F8C400EC7840 /* PayTabsIntegrationSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD4A7CFA2491F8C400EC7840 /* PayTabsIntegrationSwiftTests.swift */,
+				BD4A7CFC2491F8C400EC7840 /* Info.plist */,
+			);
+			path = PayTabsIntegrationSwiftTests;
+			sourceTree = "<group>";
+		};
+		BD4A7D042491F8C400EC7840 /* PayTabsIntegrationSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD4A7D052491F8C400EC7840 /* PayTabsIntegrationSwiftUITests.swift */,
+				BD4A7D072491F8C400EC7840 /* Info.plist */,
+			);
+			path = PayTabsIntegrationSwiftUITests;
+			sourceTree = "<group>";
+		};
+		BD4A7D1F249202EA00EC7840 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD4A7CE72491F8BD00EC7840 /* ViewController.swift */,
+				BD97679E24921FA800087ECD /* PaymentDetailController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BD4A7D202492032200EC7840 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BD4A7D212492032B00EC7840 /* Config.swift */,
+				BD9767A624923F5100087ECD /* Utilities.swift */,
+				BD4A7D232492032B00EC7840 /* HRToast+UIView.swift */,
+				BD4A7D222492032B00EC7840 /* ValidationClass.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BD9767A02492203A00087ECD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD9767A12492208100087ECD /* CommonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA80EC4EEE8D79DCF400C6D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52BA592379E4BD6573811B3B /* Pods-PayTabsIntegrationSwift.debug.xcconfig */,
+				2C0590752F6139A400298317 /* Pods-PayTabsIntegrationSwift.release.xcconfig */,
+				24803B1F3C527D08EEAD4DBF /* Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests.debug.xcconfig */,
+				223411CD3C29F79B54B8E083 /* Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests.release.xcconfig */,
+				3869A9900DB831FD3C4B8C8F /* Pods-PayTabsIntegrationSwiftTests.debug.xcconfig */,
+				7051A4BA3CFF369CAEB07220 /* Pods-PayTabsIntegrationSwiftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD4A7CDF2491F8BD00EC7840 /* PayTabsIntegrationSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4A7D0A2491F8C400EC7840 /* Build configuration list for PBXNativeTarget "PayTabsIntegrationSwift" */;
+			buildPhases = (
+				A60B846F93C8A7034745994D /* [CP] Check Pods Manifest.lock */,
+				BD4A7CDC2491F8BD00EC7840 /* Sources */,
+				BD4A7CDD2491F8BD00EC7840 /* Frameworks */,
+				BD4A7CDE2491F8BD00EC7840 /* Resources */,
+				61717AF3B9BE5BCA87735A25 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayTabsIntegrationSwift;
+			productName = PayTabsIntegrationSwift;
+			productReference = BD4A7CE02491F8BD00EC7840 /* PayTabsIntegrationSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD4A7CF52491F8C400EC7840 /* PayTabsIntegrationSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4A7D0D2491F8C400EC7840 /* Build configuration list for PBXNativeTarget "PayTabsIntegrationSwiftTests" */;
+			buildPhases = (
+				99E7B379A987EFEC9170CA2B /* [CP] Check Pods Manifest.lock */,
+				BD4A7CF22491F8C400EC7840 /* Sources */,
+				BD4A7CF32491F8C400EC7840 /* Frameworks */,
+				BD4A7CF42491F8C400EC7840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4A7CF82491F8C400EC7840 /* PBXTargetDependency */,
+			);
+			name = PayTabsIntegrationSwiftTests;
+			productName = PayTabsIntegrationSwiftTests;
+			productReference = BD4A7CF62491F8C400EC7840 /* PayTabsIntegrationSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD4A7D002491F8C400EC7840 /* PayTabsIntegrationSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4A7D102491F8C400EC7840 /* Build configuration list for PBXNativeTarget "PayTabsIntegrationSwiftUITests" */;
+			buildPhases = (
+				CA27238CDA0F242F8921868C /* [CP] Check Pods Manifest.lock */,
+				BD4A7CFD2491F8C400EC7840 /* Sources */,
+				BD4A7CFE2491F8C400EC7840 /* Frameworks */,
+				BD4A7CFF2491F8C400EC7840 /* Resources */,
+				604B399D8040B5D7EB55B5A4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4A7D032491F8C400EC7840 /* PBXTargetDependency */,
+			);
+			name = PayTabsIntegrationSwiftUITests;
+			productName = PayTabsIntegrationSwiftUITests;
+			productReference = BD4A7D012491F8C400EC7840 /* PayTabsIntegrationSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD4A7CD82491F8BD00EC7840 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Prahalad Kumawat";
+				TargetAttributes = {
+					BD4A7CDF2491F8BD00EC7840 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					BD4A7CF52491F8C400EC7840 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BD4A7CDF2491F8BD00EC7840;
+					};
+					BD4A7D002491F8C400EC7840 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BD4A7CDF2491F8BD00EC7840;
+					};
+				};
+			};
+			buildConfigurationList = BD4A7CDB2491F8BD00EC7840 /* Build configuration list for PBXProject "PayTabsIntegrationSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD4A7CD72491F8BD00EC7840;
+			productRefGroup = BD4A7CE12491F8BD00EC7840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD4A7CDF2491F8BD00EC7840 /* PayTabsIntegrationSwift */,
+				BD4A7CF52491F8C400EC7840 /* PayTabsIntegrationSwiftTests */,
+				BD4A7D002491F8C400EC7840 /* PayTabsIntegrationSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD4A7CDE2491F8BD00EC7840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4A7CF02491F8C400EC7840 /* LaunchScreen.storyboard in Resources */,
+				BD4A7CED2491F8C400EC7840 /* Assets.xcassets in Resources */,
+				BD4A7CEB2491F8BD00EC7840 /* Main.storyboard in Resources */,
+				BD4A7D1A2491FC0600EC7840 /* Resources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4A7CF42491F8C400EC7840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4A7CFF2491F8C400EC7840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		604B399D8040B5D7EB55B5A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests/Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests/Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests/Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61717AF3B9BE5BCA87735A25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayTabsIntegrationSwift/Pods-PayTabsIntegrationSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayTabsIntegrationSwift/Pods-PayTabsIntegrationSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PayTabsIntegrationSwift/Pods-PayTabsIntegrationSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E7B379A987EFEC9170CA2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayTabsIntegrationSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A60B846F93C8A7034745994D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayTabsIntegrationSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA27238CDA0F242F8921868C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD4A7CDC2491F8BD00EC7840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4A7CE82491F8BD00EC7840 /* ViewController.swift in Sources */,
+				BD97679F24921FA800087ECD /* PaymentDetailController.swift in Sources */,
+				BD4A7D242492032B00EC7840 /* Config.swift in Sources */,
+				BD4A7D262492032B00EC7840 /* HRToast+UIView.swift in Sources */,
+				BD4A7CE42491F8BD00EC7840 /* AppDelegate.swift in Sources */,
+				BD4A7CE62491F8BD00EC7840 /* SceneDelegate.swift in Sources */,
+				BD9767A724923F5100087ECD /* Utilities.swift in Sources */,
+				BD9767A22492208100087ECD /* CommonModel.swift in Sources */,
+				BD4A7D252492032B00EC7840 /* ValidationClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4A7CF22491F8C400EC7840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4A7CFB2491F8C400EC7840 /* PayTabsIntegrationSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4A7CFD2491F8C400EC7840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4A7D062491F8C400EC7840 /* PayTabsIntegrationSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD4A7CF82491F8C400EC7840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD4A7CDF2491F8BD00EC7840 /* PayTabsIntegrationSwift */;
+			targetProxy = BD4A7CF72491F8C400EC7840 /* PBXContainerItemProxy */;
+		};
+		BD4A7D032491F8C400EC7840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD4A7CDF2491F8BD00EC7840 /* PayTabsIntegrationSwift */;
+			targetProxy = BD4A7D022491F8C400EC7840 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD4A7CE92491F8BD00EC7840 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4A7CEA2491F8BD00EC7840 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD4A7CEE2491F8C400EC7840 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4A7CEF2491F8C400EC7840 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD4A7D082491F8C400EC7840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD4A7D092491F8C400EC7840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD4A7D0B2491F8C400EC7840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BA592379E4BD6573811B3B /* Pods-PayTabsIntegrationSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SFA9GUN7NY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayTabsIntegrationSwift/SDKs",
+					"$(PROJECT_DIR)/PayTabsIntegrationSwift",
+				);
+				INFOPLIST_FILE = PayTabsIntegrationSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"ActionSheetPicker_3_0\"",
+					"-framework",
+					"\"BIObjCHelpers\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"Lockbox\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Mantle\"",
+					"-framework",
+					"\"PINCache\"",
+					"-framework",
+					"\"PayCardsRecognizer\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Reachability\"",
+					"-framework",
+					"\"SBJson\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullestop.PushChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = PushChat12Jun;
+				SWIFT_OBJC_BRIDGING_HEADER = "PayTabsIntegrationSwift/PayTabsIntegrationSwift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BD4A7D0C2491F8C400EC7840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0590752F6139A400298317 /* Pods-PayTabsIntegrationSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SFA9GUN7NY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayTabsIntegrationSwift/SDKs",
+					"$(PROJECT_DIR)/PayTabsIntegrationSwift",
+				);
+				INFOPLIST_FILE = PayTabsIntegrationSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"ActionSheetPicker_3_0\"",
+					"-framework",
+					"\"BIObjCHelpers\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"Lockbox\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Mantle\"",
+					"-framework",
+					"\"PINCache\"",
+					"-framework",
+					"\"PayCardsRecognizer\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Reachability\"",
+					"-framework",
+					"\"SBJson\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullestop.PushChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = PushChat12Jun;
+				SWIFT_OBJC_BRIDGING_HEADER = "PayTabsIntegrationSwift/PayTabsIntegrationSwift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BD4A7D0E2491F8C400EC7840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3869A9900DB831FD3C4B8C8F /* Pods-PayTabsIntegrationSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayTabsIntegrationSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayTabsIntegrationSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayTabsIntegrationSwift.app/PayTabsIntegrationSwift";
+			};
+			name = Debug;
+		};
+		BD4A7D0F2491F8C400EC7840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7051A4BA3CFF369CAEB07220 /* Pods-PayTabsIntegrationSwiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayTabsIntegrationSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayTabsIntegrationSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayTabsIntegrationSwift.app/PayTabsIntegrationSwift";
+			};
+			name = Release;
+		};
+		BD4A7D112491F8C400EC7840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24803B1F3C527D08EEAD4DBF /* Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayTabsIntegrationSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayTabsIntegrationSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayTabsIntegrationSwift;
+			};
+			name = Debug;
+		};
+		BD4A7D122491F8C400EC7840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 223411CD3C29F79B54B8E083 /* Pods-PayTabsIntegrationSwift-PayTabsIntegrationSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayTabsIntegrationSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PayTabsIntegrationSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayTabsIntegrationSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD4A7CDB2491F8BD00EC7840 /* Build configuration list for PBXProject "PayTabsIntegrationSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4A7D082491F8C400EC7840 /* Debug */,
+				BD4A7D092491F8C400EC7840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4A7D0A2491F8C400EC7840 /* Build configuration list for PBXNativeTarget "PayTabsIntegrationSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4A7D0B2491F8C400EC7840 /* Debug */,
+				BD4A7D0C2491F8C400EC7840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4A7D0D2491F8C400EC7840 /* Build configuration list for PBXNativeTarget "PayTabsIntegrationSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4A7D0E2491F8C400EC7840 /* Debug */,
+				BD4A7D0F2491F8C400EC7840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4A7D102491F8C400EC7840 /* Build configuration list for PBXNativeTarget "PayTabsIntegrationSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4A7D112491F8C400EC7840 /* Debug */,
+				BD4A7D122491F8C400EC7840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD4A7CD82491F8BD00EC7840 /* Project object */;
+}

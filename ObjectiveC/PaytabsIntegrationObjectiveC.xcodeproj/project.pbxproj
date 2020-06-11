@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E000132D486D317DB9642DC /* Pods_PaytabsIntegrationObjectiveC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76C73F3812EB2BDE60FBAEC /* Pods_PaytabsIntegrationObjectiveC.framework */; };
+		BE8D1E832491F4080072B62E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8D1E822491F4080072B62E /* AppDelegate.m */; };
+		BE8D1E862491F4080072B62E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8D1E852491F4080072B62E /* SceneDelegate.m */; };
+		BE8D1E892491F4080072B62E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8D1E882491F4080072B62E /* ViewController.m */; };
+		BE8D1E8C2491F4080072B62E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8D1E8A2491F4080072B62E /* Main.storyboard */; };
+		BE8D1E8E2491F40B0072B62E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8D1E8D2491F40B0072B62E /* Assets.xcassets */; };
+		BE8D1E912491F40B0072B62E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8D1E8F2491F40B0072B62E /* LaunchScreen.storyboard */; };
+		BE8D1E942491F40B0072B62E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8D1E932491F40B0072B62E /* main.m */; };
+		BE8D1E9E2491F4CE0072B62E /* paytabs-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8D1E9D2491F4CE0072B62E /* paytabs-iOS.framework */; };
+		BE8D1EA02491F4DA0072B62E /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE8D1E9F2491F4DA0072B62E /* Resources.bundle */; };
+		BE8D1EA7249211070072B62E /* PaymentDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8D1EA6249211070072B62E /* PaymentDetailController.m */; };
+		BE8D1EAD24922D3A0072B62E /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8D1EAC24922D3A0072B62E /* Config.m */; };
+		BE8D1EB22492387E0072B62E /* DetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8D1EB02492387E0072B62E /* DetailModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48F8A4E5F04A60BFCB7AA61C /* Pods-PaytabsIntegrationObjectiveC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaytabsIntegrationObjectiveC.debug.xcconfig"; path = "Target Support Files/Pods-PaytabsIntegrationObjectiveC/Pods-PaytabsIntegrationObjectiveC.debug.xcconfig"; sourceTree = "<group>"; };
+		A76C73F3812EB2BDE60FBAEC /* Pods_PaytabsIntegrationObjectiveC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaytabsIntegrationObjectiveC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8D1E7E2491F4080072B62E /* PaytabsIntegrationObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaytabsIntegrationObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8D1E812491F4080072B62E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE8D1E822491F4080072B62E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE8D1E842491F4080072B62E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BE8D1E852491F4080072B62E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BE8D1E872491F4080072B62E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE8D1E882491F4080072B62E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE8D1E8B2491F4080072B62E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE8D1E8D2491F40B0072B62E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE8D1E902491F40B0072B62E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE8D1E922491F40B0072B62E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE8D1E932491F40B0072B62E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE8D1E9D2491F4CE0072B62E /* paytabs-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "paytabs-iOS.framework"; sourceTree = "<group>"; };
+		BE8D1E9F2491F4DA0072B62E /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
+		BE8D1EA5249211070072B62E /* PaymentDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentDetailController.h; sourceTree = "<group>"; };
+		BE8D1EA6249211070072B62E /* PaymentDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentDetailController.m; sourceTree = "<group>"; };
+		BE8D1EAC24922D3A0072B62E /* Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
+		BE8D1EAE24922D440072B62E /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		BE8D1EB02492387E0072B62E /* DetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailModel.m; sourceTree = "<group>"; };
+		BE8D1EB12492387E0072B62E /* DetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailModel.h; sourceTree = "<group>"; };
+		C73A183F691661CF51B4950C /* Pods-PaytabsIntegrationObjectiveC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaytabsIntegrationObjectiveC.release.xcconfig"; path = "Target Support Files/Pods-PaytabsIntegrationObjectiveC/Pods-PaytabsIntegrationObjectiveC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE8D1E7B2491F4080072B62E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8D1E9E2491F4CE0072B62E /* paytabs-iOS.framework in Frameworks */,
+				6E000132D486D317DB9642DC /* Pods_PaytabsIntegrationObjectiveC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE8D1E752491F4080072B62E = {
+			isa = PBXGroup;
+			children = (
+				BE8D1E802491F4080072B62E /* PaytabsIntegrationObjectiveC */,
+				BE8D1E7F2491F4080072B62E /* Products */,
+				FD4405185D1C8C1653534596 /* Pods */,
+				D4C66ACB214BB364ED8A429D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE8D1E7F2491F4080072B62E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE8D1E7E2491F4080072B62E /* PaytabsIntegrationObjectiveC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE8D1E802491F4080072B62E /* PaytabsIntegrationObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				BE8D1E9D2491F4CE0072B62E /* paytabs-iOS.framework */,
+				BE8D1E9F2491F4DA0072B62E /* Resources.bundle */,
+				BE8D1E812491F4080072B62E /* AppDelegate.h */,
+				BE8D1E822491F4080072B62E /* AppDelegate.m */,
+				BE8D1E842491F4080072B62E /* SceneDelegate.h */,
+				BE8D1E852491F4080072B62E /* SceneDelegate.m */,
+				BE8D1E9B2491F4920072B62E /* Resources */,
+				BE8D1E9C2491F4B10072B62E /* Controllers */,
+				BE8D1EAF2492386B0072B62E /* Model */,
+				BE8D1EA824922B4B0072B62E /* Utils */,
+				BE8D1E922491F40B0072B62E /* Info.plist */,
+			);
+			path = PaytabsIntegrationObjectiveC;
+			sourceTree = "<group>";
+		};
+		BE8D1E9B2491F4920072B62E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE8D1E932491F40B0072B62E /* main.m */,
+				BE8D1E8A2491F4080072B62E /* Main.storyboard */,
+				BE8D1E8F2491F40B0072B62E /* LaunchScreen.storyboard */,
+				BE8D1E8D2491F40B0072B62E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BE8D1E9C2491F4B10072B62E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE8D1E872491F4080072B62E /* ViewController.h */,
+				BE8D1E882491F4080072B62E /* ViewController.m */,
+				BE8D1EA5249211070072B62E /* PaymentDetailController.h */,
+				BE8D1EA6249211070072B62E /* PaymentDetailController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BE8D1EA824922B4B0072B62E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BE8D1EAC24922D3A0072B62E /* Config.m */,
+				BE8D1EAE24922D440072B62E /* Config.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BE8D1EAF2492386B0072B62E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE8D1EB12492387E0072B62E /* DetailModel.h */,
+				BE8D1EB02492387E0072B62E /* DetailModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D4C66ACB214BB364ED8A429D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A76C73F3812EB2BDE60FBAEC /* Pods_PaytabsIntegrationObjectiveC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD4405185D1C8C1653534596 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48F8A4E5F04A60BFCB7AA61C /* Pods-PaytabsIntegrationObjectiveC.debug.xcconfig */,
+				C73A183F691661CF51B4950C /* Pods-PaytabsIntegrationObjectiveC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE8D1E7D2491F4080072B62E /* PaytabsIntegrationObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE8D1E972491F40B0072B62E /* Build configuration list for PBXNativeTarget "PaytabsIntegrationObjectiveC" */;
+			buildPhases = (
+				A8181E98312D01923A9823BE /* [CP] Check Pods Manifest.lock */,
+				BE8D1E7A2491F4080072B62E /* Sources */,
+				BE8D1E7B2491F4080072B62E /* Frameworks */,
+				BE8D1E7C2491F4080072B62E /* Resources */,
+				13DD17F39C79E7FE09BF72AC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaytabsIntegrationObjectiveC;
+			productName = PaytabsIntegrationObjectiveC;
+			productReference = BE8D1E7E2491F4080072B62E /* PaytabsIntegrationObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE8D1E762491F4080072B62E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = gipl;
+				TargetAttributes = {
+					BE8D1E7D2491F4080072B62E = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = BE8D1E792491F4080072B62E /* Build configuration list for PBXProject "PaytabsIntegrationObjectiveC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE8D1E752491F4080072B62E;
+			productRefGroup = BE8D1E7F2491F4080072B62E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE8D1E7D2491F4080072B62E /* PaytabsIntegrationObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE8D1E7C2491F4080072B62E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8D1E912491F40B0072B62E /* LaunchScreen.storyboard in Resources */,
+				BE8D1E8E2491F40B0072B62E /* Assets.xcassets in Resources */,
+				BE8D1E8C2491F4080072B62E /* Main.storyboard in Resources */,
+				BE8D1EA02491F4DA0072B62E /* Resources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13DD17F39C79E7FE09BF72AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PaytabsIntegrationObjectiveC/Pods-PaytabsIntegrationObjectiveC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PaytabsIntegrationObjectiveC/Pods-PaytabsIntegrationObjectiveC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PaytabsIntegrationObjectiveC/Pods-PaytabsIntegrationObjectiveC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8181E98312D01923A9823BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaytabsIntegrationObjectiveC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE8D1E7A2491F4080072B62E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8D1E892491F4080072B62E /* ViewController.m in Sources */,
+				BE8D1EAD24922D3A0072B62E /* Config.m in Sources */,
+				BE8D1EA7249211070072B62E /* PaymentDetailController.m in Sources */,
+				BE8D1E832491F4080072B62E /* AppDelegate.m in Sources */,
+				BE8D1E942491F40B0072B62E /* main.m in Sources */,
+				BE8D1EB22492387E0072B62E /* DetailModel.m in Sources */,
+				BE8D1E862491F4080072B62E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE8D1E8A2491F4080072B62E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE8D1E8B2491F4080072B62E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE8D1E8F2491F40B0072B62E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE8D1E902491F40B0072B62E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE8D1E952491F40B0072B62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE8D1E962491F40B0072B62E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE8D1E982491F40B0072B62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F8A4E5F04A60BFCB7AA61C /* Pods-PaytabsIntegrationObjectiveC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SFA9GUN7NY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PaytabsIntegrationObjectiveC",
+				);
+				INFOPLIST_FILE = PaytabsIntegrationObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"ActionSheetPicker_3_0\"",
+					"-framework",
+					"\"BIObjCHelpers\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"Lockbox\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Mantle\"",
+					"-framework",
+					"\"PINCache\"",
+					"-framework",
+					"\"PayCardsRecognizer\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Reachability\"",
+					"-framework",
+					"\"SBJson\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullestop.PushChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = PushChat12Jun;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BE8D1E992491F40B0072B62E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C73A183F691661CF51B4950C /* Pods-PaytabsIntegrationObjectiveC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SFA9GUN7NY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PaytabsIntegrationObjectiveC",
+				);
+				INFOPLIST_FILE = PaytabsIntegrationObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"ActionSheetPicker_3_0\"",
+					"-framework",
+					"\"BIObjCHelpers\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"Lockbox\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Mantle\"",
+					"-framework",
+					"\"PINCache\"",
+					"-framework",
+					"\"PayCardsRecognizer\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Reachability\"",
+					"-framework",
+					"\"SBJson\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fullestop.PushChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = PushChat12Jun;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE8D1E792491F4080072B62E /* Build configuration list for PBXProject "PaytabsIntegrationObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8D1E952491F40B0072B62E /* Debug */,
+				BE8D1E962491F40B0072B62E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE8D1E972491F40B0072B62E /* Build configuration list for PBXNativeTarget "PaytabsIntegrationObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8D1E982491F40B0072B62E /* Debug */,
+				BE8D1E992491F40B0072B62E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE8D1E762491F4080072B62E /* Project object */;
+}
